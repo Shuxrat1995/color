@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+    
+}
+
+.container {
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;  
+}
+
+.color__box {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.item__box {
+    width: 100px;
+    height: 300px;
+    border: 1px solid black;
+    background: white;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.second__item-box {
+    width: 100px;
+    height: 300px;
+    border: 1px solid black;
+    background: white;
+    margin-top: 40px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.item {
+    width: 70px;
+    height: 40px;
+    border: 1px solid black;
+}
+
+.box_item {
+    width: 70px;
+    height: 40px;
+    border: 1px solid black;
+    
+}
+
+.red {
+    background: red;
+    margin-bottom: 10px;
+    margin: 10px;
+}
+
+.yellow {
+    background: yellow;
+    margin: 10px;
+    
+}
+
+.green {
+    background: green;
+    margin: 10px;
+}
+
+.blue {
+    background: blue;
+    margin: 10px;
+    
+}
+
+.white {
+    background: white;
+    margin: 10px;
+   
+}
+
+.big__box-item {
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+   gap: 40px;
+    
+}
+
+.box__items1 {
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    grid-row: span 2;
+    grid-column: span 1;
+}
+.box__items2 {
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    grid-row: span 2;
+    grid-column: span 1;
+}
+.box__items3 {
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    grid-row: span 2;
+    grid-column: span 1;
+}
+.box__items4 {
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    grid-row: span 2;
+    grid-column: span 1;
+}
+.box__items5 {
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    grid-row: span 2;
+    grid-column: span 1;
+}
+.box__items6 {
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    grid-row: span 2;
+    grid-column: span 1;
+}
